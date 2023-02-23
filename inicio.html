@@ -10,24 +10,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Cine</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .oculos
+        {
+            position:absolute;
+            top:700px;
+            left:1450px;
+            height:100px;
+            width:200px;
+            animation:oculos1 3s infinite linear;
+            
+
+        }
+        @keyframes  oculos1
+        {
+            0%{ rotate: 0deg; }
+            100%{ rotate: 360deg; }
+        }
+       
+    </style>
 </head>
 <body>
     <div class="fundo"> 
-        <img src="batman.jpg"> 
-        <img src="aladdin.jpg">
-        <img src="sonic.jpg">
-        <img src="tintin.jpg">
-        <img src="capita marvel.jpg">
-       <img src="dumbo.jpg">
-    </div>
-    <div class="lado">
         
-    <div class="botton1"> Assine Agora</div>
-    <div class="botton">Entrar</div>
-</div>
-    <div class="imagem">
+        <img src="oculos.png" class="oculos">
+       <div class="carregando">Carregando..</div>
+ 
         
       
-    </div> 
+    </div>
+      
 </body>
 </html>
